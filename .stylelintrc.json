@@ -1,0 +1,13 @@
+{
+  "ignoreFiles": ["**/*.js", "**/*.md"],
+  "plugins": [
+    "stylelint-scss"
+  ],
+  "extends": ["stylelint-config-standard", "stylelint-config-recommended-scss", "stylelint-config-recess-order"],
+  "rules": {
+    "font-family-no-missing-generic-family-keyword": null,
+    "no-descending-specificity": null,
+    "selector-pseudo-element-no-unknown": null,
+    "media-feature-name-no-unknown": null
+  }
+}
